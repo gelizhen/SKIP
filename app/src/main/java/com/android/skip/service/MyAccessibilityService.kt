@@ -20,6 +20,7 @@ import com.android.skip.ui.settings.strict.StrictRepository
 import com.android.skip.ui.settings.tip.TipRepository
 import com.android.skip.ui.whitelist.WhiteListRepository
 import com.android.skip.util.AccessibilityState
+import com.android.skip.util.ChoicesUtils
 import com.android.skip.util.MyToast
 import com.blankj.utilcode.util.AppUtils
 import com.blankj.utilcode.util.LogUtils
@@ -84,6 +85,8 @@ class MyAccessibilityService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         try {
             val rootNode = getCurrentRootNode()
+
+            ChoicesUtils.generateChoices(rootNode, filesDir)
 
             val rootNodePackageName = rootNode.packageName.toString()
             if (rootNodePackageName != appPackageName) {
