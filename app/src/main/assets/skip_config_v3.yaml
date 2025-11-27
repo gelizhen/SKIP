@@ -273,4 +273,12 @@
       file: fileId=17147577-5b74-46e6-b658-966de3c7debb&nodeId=15
       desc: 视频广告
 
+- appName: 皮皮喵
+  packageName: com.gentle.ppcat
+  skipIds:
+    - id: com.kwad.dy.sdk:id/ksad_interstitial_auto_close
+      activityName: com.kwad.components.ad.interstitial.d
+      file: fileId=bb769386-a2f6-4756-a878-ca8c497f5344&nodeId=9
+      desc: 视频广告
+
       
