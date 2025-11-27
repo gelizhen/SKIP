@@ -256,4 +256,21 @@
       file: fileId=3caf06f4-0ccc-4b77-a335-ac8081f53096&nodeId=14
       desc: 关闭喵
 
+- appName: 皮皮喵
+  packageName: com.gentle.ppcat
+  skipTexts:
+    - text: 放弃奖励离开
+      length: 6
+      activityName: com.qq.e.comm.plugin.ce
+      file: fileId=c61026ac-9691-4359-a333-7b1187a50562&nodeId=7
+      desc: 弹窗
+
+- appName: 皮皮喵
+  packageName: com.gentle.ppcat
+  skipBounds:
+    - bound: 944,180,1022,258
+      activityName: com.qq.e.ads.PortraitADActivity
+      file: fileId=17147577-5b74-46e6-b658-966de3c7debb&nodeId=15
+      desc: 视频广告
+
       
