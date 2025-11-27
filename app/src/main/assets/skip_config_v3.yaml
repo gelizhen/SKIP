@@ -239,3 +239,21 @@
       activityName: com.android.mediacenter.PageActivity
       file: fileId=3b3c8be4-210c-4e05-b5a2-d5674317fac0&nodeId=7
       desc: 开屏广告
+
+- appName: 皮皮喵
+  packageName: com.gentle.ppcat
+  skipBounds:
+    - bound: 744,2100,936,2244
+      activityName: com.gentle.ppcat.MainActivity
+      file: fileId=1b2de83c-9b1f-4db3-8667-8402d585117a&nodeId=20
+      desc: 更新取消
+      
+- appName: 皮皮喵
+  packageName: com.gentle.ppcat
+  skipBounds:
+    - bound: 885,122,1080,227
+      activityName: com.gentle.ppcat.MainActivity
+      file: fileId=3caf06f4-0ccc-4b77-a335-ac8081f53096&nodeId=14
+      desc: 关闭喵
+
+      
