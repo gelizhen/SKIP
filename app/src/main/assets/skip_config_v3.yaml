@@ -223,3 +223,19 @@
       activityName: com.pptv.rrtvtrunk.main.presentation.MainActivity
       file: fileId=0f84d874-ada4-4b90-9829-a99f43950071&nodeId=5
       desc: 开屏首页弹窗
+
+- appName: ⁡电⁡影⁡猎⁡手⁡
+  packageName: nfwzqb.gbtnml.fzmvjw
+  skipIds:
+    - id: nfwzqb.gbtnml.fzmvjw:id/btn_close
+      activityName: com.huawei.android.launcher.unihome.UniHomeLauncher
+      file: fileId=0ee6e969-befd-467a-af16-064df96b5bba&nodeId=19
+      desc: 首页弹窗
+
+- appName: 华为音乐
+  packageName: com.android.mediacenter
+  skipIds:
+    - id: com.android.mediacenter:id/iv_close
+      activityName: com.android.mediacenter.PageActivity
+      file: fileId=3b3c8be4-210c-4e05-b5a2-d5674317fac0&nodeId=7
+      desc: 开屏广告
