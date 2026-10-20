@@ -289,3 +289,18 @@
       file: fileId=f66dbb60-68d0-4d78-a174-9d7c8edbefa0&nodeId=20
       desc: 请填写描述
 
+- appName: 哔哩哔哩
+  packageName: tv.danmaku.bili
+  skipIds:
+    - id: tv.danmaku.bili:id/count_down
+      activityName: tv.danmaku.bili.splash.ad.page.HotSplashActivity
+      file: fileId=f66dbb60-68d0-4d78-a174-9d7c8edbefa0&nodeId=20
+      desc: 请填写描述
+
+- appName: 哔哩哔哩
+  packageName: tv.danmaku.bili
+  skipIds:
+    - id: tv.danmaku.bili:id/count_down
+      activityName: tv.danmaku.bili.splash.ad.page.HotSplashActivity
+      file: fileId=f66dbb60-68d0-4d78-a174-9d7c8edbefa0&nodeId=20
+      desc: 请填写描述
